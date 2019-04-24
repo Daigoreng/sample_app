@@ -17,4 +17,8 @@ class SessionsHelperTest < ActionView::TestCase
     assert_nil current_user
   end
 
+  def App
+    p "こんにちは"
+  end
+
 end
